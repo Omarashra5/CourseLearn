@@ -24,6 +24,9 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://course-l2026.vercel.app/'),
+   verification: {
+    google: "LpD5k4b-C_GL6wp9vFG-E_QrcQmNpCexHEd7GTpe_aU",
+  },
   icons: {
     icon: '/icon.png',
   },
