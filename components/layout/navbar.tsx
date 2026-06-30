@@ -156,17 +156,6 @@ export function Navbar() {
                     <SettingsIcon className="h-4 w-4" />
                   </Link>
                 </Button>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  onClick={() => {
-                    logout();
-                    router.push('/');
-                  }}
-                >
-                  <LogOut className="h-4 w-4 mr-1" />
-                  Logout
-                </Button>
               </div>
             ) : (
               <div className="hidden md:flex items-center gap-2">

@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://Courses-courses.example.com'),
+  metadataBase: new URL('https://course-l2026.vercel.app/'),
   icons: {
     icon: '/icon.png',
   },
